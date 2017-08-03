@@ -1,0 +1,193 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+#navbarmenu {
+  background: black;
+  width: auto;
+  color: blue;
+}
+#navbarmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+}
+#navbarmenu ul:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#navbarmenu ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+#navbarmenu.align-right ul li {
+  float: right;
+}
+#navbarmenu.align-center ul {
+  text-align: center;
+}
+#navbarmenu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+#navbarmenu ul li a:hover {
+  color: #333333;
+}
+#navbarmenu ul li a:hover:before {
+  width: 100%;
+}
+#navbarmenu ul li a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 19px;
+  height: 6px;
+  width: 6px;
+  background: #ffffff;
+  opacity: .5;
+}
+#navbarmenu ul li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #333333;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+}
+#navbarmenu ul li.last > a:after,
+#navbarmenu ul li:last-child > a:after {
+  display: none;
+}
+#navbarmenu ul li.active a {
+  color: #333333;
+}
+#navbarmenu ul li.active a:before {
+  width: 100%;
+}
+#navbarmenu.align-right li.last > a:after,
+#navbarmenu.align-right li:last-child > a:after {
+  display: block;
+}
+#navbarmenu.align-right li:first-child a:after {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #navbarmenu ul li {
+    float: none;
+    display: block;
+  }
+  #navbarmenu ul li a {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fb998c;
+  }
+  #navbarmenu ul li.last > a,
+  #navbarmenu ul li:last-child > a {
+    border: 0;
+  }
+  #navbarmenu ul li a:after {
+    display: none;
+  }
+  #navbarmenu ul li a:before {
+    display: none;
+  }
+}   
+
+       #Body{ background-color: #cccccc;
+             font-family:  arial; sans-serif;
+             text-align: auto;
+            
+             text-align: center;
+           }
+        h1, h2{ font-variant: small-caps; }
+        blockquote{ border: solid;
+                     border-color: white;
+                     border-width: 1px;
+                     font-variant: small-caps;
+                     font-weight: bolder;
+                     padding: 10%;
+                     margin-right: 10%;
+                     text-align: center;
+                     height : 50%;
+                   }
+       
+/*GRID CODE*/
+       .section {
+                    clear: both;
+                    padding: 0px;
+                    margin: 0px;
+                }
+
+    /*  COLUMN SETUP  */
+        .col {
+                    display: block;
+                    float:left;
+                    margin: 1% 0 1% 1.6%;
+            }
+        .col:first-child { margin-left: 0; }
+
+
+    /*  GROUPING  */
+        .group:before,
+        .group:after {
+                    content:"";
+                    display:table;
+                    }
+        .group:after {
+                    clear:both;
+                    }
+        .group {
+                    zoom:1; 
+                    /* For IE 6/7 */
+                }
+
+            /*  GRID OF THREE  */
+        .span_3_of_3 {
+                    width: 100%;
+                }
+        .span_2_of_3 {
+                    width: 66.1%;
+                }
+        .span_1_of_3 {
+                    width: 32.2%;
+                }
+
+        /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+        @media only screen and (max-width: 480px) {
+        .col { 
+            margin: 1% 0 1% 0%;
+            }
+        .span_3_of_3, .span_2_of_3, .span_1_of_3 
+            {   
+            width: 100%; 
+            }
+        }  
+

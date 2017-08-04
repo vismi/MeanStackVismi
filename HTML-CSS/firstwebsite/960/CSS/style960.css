@@ -24,9 +24,15 @@ body {
     margin:0;
     padding:0;
   }
-h2,h6{
+h2{
   text-align: right;
   margin-right: 10%;
+  font-size: 80%;
+}
+h6{
+  text-align: right;
+  margin-right: 10%;
+  font-size: 40%;
 }
 
 #nav-bar{
@@ -172,7 +178,7 @@ h2,h6{
 
   #group1 .parallax__layer--base {
     background:  url("../Images/putin-trump.jpeg");
-    width : 33%;
+    /*width : 33%;*/
     height:100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;

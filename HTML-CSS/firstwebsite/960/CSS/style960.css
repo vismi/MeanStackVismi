@@ -178,7 +178,7 @@ h6{
 
   #group1 .parallax__layer--base {
     background:  url("../Images/putin-trump.jpeg");
-    /*width : 33%;*/
+    width : 33%;
     height:100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;

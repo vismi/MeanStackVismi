@@ -172,7 +172,7 @@ h2,h6{
 
   #group1 .parallax__layer--base {
     background:  url("../Images/putin-trump.jpeg");
-    width:33%;
+    
     height:100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -183,7 +183,7 @@ h2,h6{
   }
   #group1 .parallax__layer--baser {
     background:  url("../Images/putin-trumpr.jpeg");
-    width:33%;
+   
     height:100%;
     margin-left: 66%;
     -webkit-background-size: cover;
@@ -249,10 +249,10 @@ h2,h6{
   }
 
 
-  #groupendlanding .parallax__layer--base {
+  #groupend .parallax__layer--base {
     background:  url("../Images/Mr-Trinh.jpg");
     width:66%;
-    height:80%;
+    height:100%;
     margin-left: 33%;
     -webkit-background-size: cover;
     -moz-background-size: cover;

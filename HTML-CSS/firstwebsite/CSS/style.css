@@ -1,4 +1,5 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
 header{
   
   font-family:  trebuchet;
@@ -118,24 +119,31 @@ h2,h6{
     height : 50;
     text-align: center;
     position: absolute;
-    left: 60%;
+    left: 73%;
     top: 30%;
     padding-bottom: 10%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
  
-
+  .title1 {
+    height : 50;
+    width:30%;
+    text-align: center;
+    position: absolute;
+    right: 50%;
+    top: 30%;
+    padding-bottom: 10%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
 
   /* style the groups
   --------------------------------------------- */
 
-  #group1 {
-    z-index: 5; /* slide over group 2 */
-  }
   #group1 .parallax__layer--base {
     background:  url("../Images/putin-trump.jpeg");
-    width:100%;
+    width:33%;
     height:100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -145,13 +153,12 @@ h2,h6{
     filter: alpha(opacity=60); /* For IE 8 & 9 (more valid) */ 
   }
 
-  #group2 {
-    z-index: 3; /* slide under groups 1 and 3 */
-  }
+ 
   #group2 .parallax__layer--base {
     background:  url("../Images/statue-of-liberty.jpg");
-    width:100%;
+    width:66%;
     height:100%;
+    margin-left: 33%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -159,14 +166,13 @@ h2,h6{
     opacity: 0.6;
     filter: alpha(opacity=60); /* For IE 8 & 9 (more valid) */ 
   }
-
-  #group3 {
-    z-index: 4; /* slide over group 2 and 4 */
-  }
+  
+ 
   #group3 .parallax__layer--base {
     background:  url("../Images/luisa-ortega.jpg");
-    width:100%;
+    width:33%;
     height:100%;
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -175,13 +181,12 @@ h2,h6{
     filter: alpha(opacity=60); /* For IE 8 & 9 (more valid) */ 
   }
 
-  #group4 {
-    z-index: 2; /* slide under group 3 and 5 */
-  }
+ 
   #group4 .parallax__layer--base {
     background:  url("../Images/australian-nurse.jpg");
-    width:100%;
+    width:66%;
     height:100%;
+    margin-left: 33%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -190,12 +195,10 @@ h2,h6{
     filter: alpha(opacity=60); /* For IE 8 & 9 (more valid) */ 
   }
 
-  #group5 {
-    z-index: 3; /* slide over group 4 and 6 */
-  }
+
   #group5 .parallax__layer--base {
     background:  url("../Images/hair-thieves.jpg");
-    width:100%;
+    width:33%;
     height:100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -205,12 +208,24 @@ h2,h6{
     filter: alpha(opacity=60); /* For IE 8 & 9 (more valid) */ 
   }
 
-  #group6 {
-    z-index: 2; /* slide under group 5 and 7 */
-  }
-  #group6 .parallax__layer--base {
+
+  #groupendlanding .parallax__layer--base {
     background:  url("../Images/Mr-Trinh.jpg");
-    width:100%;
+    width:66%;
+    height:80%;
+    margin-left: 33%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE 8 & 9 (more valid) */ 
+  }
+
+
+  #group1s .parallax__layer--base {
+    background:  url("../Images/moth.jpg");
+    width:33%;
     height:100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -219,10 +234,82 @@ h2,h6{
     opacity: 0.6;
     filter: alpha(opacity=60); /* For IE 8 & 9 (more valid) */ 
   }
-  #group6 .footer {
+
+ 
+  #group2s .parallax__layer--base {
+    background:  url("../Images/graph.jpg");
+    width:66%;
+    height:100%;
+    margin-left: 33%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE 8 & 9 (more valid) */ 
+  }
+  
+ 
+  #group3s .parallax__layer--base {
+    background:  url("../Images/greek.jpg");
+    width:33%;
+    height:100%;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE 8 & 9 (more valid) */ 
+  }
+
+ 
+  #group4s .parallax__layer--base {
+    background:  url("../Images/drought.jpg");
+    width:66%;
+    height:100%;
+    margin-left: 33%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE 8 & 9 (more valid) */ 
+  }
+
+
+  #group5s .parallax__layer--base {
+    background:  url("../Images/dino.jpg");
+    width:33%;
+    height:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE 8 & 9 (more valid) */ 
+  }
+
+
+  #groupendlandings .parallax__layer--base {
+    background:  url("../Images/wolves.jpg");
+    width:66%;
+    height:80%;
+    margin-left: 33%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE 8 & 9 (more valid) */ 
+  }
+
+
+
+  #groupendlandings .footer {
    position: absolute;
   right: 0;
-  
+  margin-bottom: 10%;
   left: 0;
   top:80%;
   font-family:  trebuchet;
@@ -254,7 +341,7 @@ p > a:hover{
 }
 ul {
     padding:0;
-    list-style: none;
+    list-style: none; 
     display: inline-block;  
 
   }
